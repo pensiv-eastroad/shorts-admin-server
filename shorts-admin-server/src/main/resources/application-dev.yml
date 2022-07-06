@@ -1,0 +1,43 @@
+spring:
+  config:
+    activate:
+      on-profile: local
+
+  cache:
+    cachecontrol:
+      maxAge: 0
+  servlet:
+    multipart:
+      enabled: true
+      fileSizeThreshold: "1MB"
+      maxFileSize: "100MB"
+      maxRequestSize: "100MB"
+      location: "/data/models/shorts/output/result"
+
+server:
+  port: 8881
+  crossorigins: "http://192.168.0.66:3000"
+  http2:
+    enabled: true
+  error:
+    whitelabel:
+      enabled: false
+  compression:
+    enabled: true
+    minResponseSize: 10240
+    mimeTypes: "text/html,text/xml,text/plain,text/css,text/javascript,application/javascript,application/json"
+
+threadPool:
+  namePrefix: "Executor-"
+  queue: 15
+  core: 15
+  max: 30
+
+dir:
+  models: "/data/models/shorts/output"
+
+swagger:
+  api:
+    title: "Pensiv Shorts Server"
+    description: "API interface document"
+    url: "shorts.pensiv.ai"
