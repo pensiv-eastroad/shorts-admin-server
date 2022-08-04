@@ -1,4 +1,4 @@
-package shorts.controller;
+package ai.pensiv.shorts.controller;
 
 import ai.pensiv.shorts.service.AccountService;
 import io.swagger.annotations.ApiOperation;

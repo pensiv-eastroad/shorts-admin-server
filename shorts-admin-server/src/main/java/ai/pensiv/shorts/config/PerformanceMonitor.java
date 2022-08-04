@@ -1,4 +1,4 @@
-package shorts.config;
+package ai.pensiv.shorts.config;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -11,7 +11,6 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class PerformanceMonitor {
     private Logger log = LoggerFactory.getLogger(PerformanceMonitor.class);
-
     @Around("execution(* ai.pensiv.shorts.service.VideoService.*(..))")
     public Object around(ProceedingJoinPoint joinPoint) throws Throwable {
         long start = System.currentTimeMillis();

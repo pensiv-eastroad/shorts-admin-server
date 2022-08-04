@@ -1,4 +1,4 @@
-package shorts.exception;
+package ai.pensiv.shorts.exception;
 
 public class ShortsException extends RuntimeException {
     private int code;

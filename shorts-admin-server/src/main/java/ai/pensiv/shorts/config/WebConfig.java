@@ -1,4 +1,4 @@
-package shorts.config;
+package ai.pensiv.shorts.config;
 
 
 import org.slf4j.Logger;

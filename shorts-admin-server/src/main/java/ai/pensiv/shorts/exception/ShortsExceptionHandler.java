@@ -1,4 +1,4 @@
-package shorts.exception;
+package ai.pensiv.shorts.exception;
 
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.core.Ordered;

@@ -1,4 +1,4 @@
-package shorts.config;
+package ai.pensiv.shorts.config;
 
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;

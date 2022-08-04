@@ -1,4 +1,4 @@
-package shorts.exception;
+package ai.pensiv.shorts.exception;
 
 public class ShortsResponseMessage {
     public static final int OK				= 1200;

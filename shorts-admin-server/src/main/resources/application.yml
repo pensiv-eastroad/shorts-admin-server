@@ -16,7 +16,7 @@ spring:
 
 server:
   port: 8881
-  crossorigins: "http://192.168.0.66:3000"
+  crossorigins: "http://localhost:3000"
   http2:
     enabled: true
   error:
@@ -34,7 +34,10 @@ threadPool:
   max: 30
 
 dir:
-  models: "/data/models/shorts/output"
+  models:
+    shorts:
+      inputs: "/Users/eastroad/data/models/shorts/inputs/video"
+      outputs: "/Users/eastroad/data/models/shorts/output/result"
 
 swagger:
   api:

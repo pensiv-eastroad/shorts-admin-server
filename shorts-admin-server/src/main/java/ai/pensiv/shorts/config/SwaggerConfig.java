@@ -1,4 +1,4 @@
-package shorts.config;
+package ai.pensiv.shorts.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;

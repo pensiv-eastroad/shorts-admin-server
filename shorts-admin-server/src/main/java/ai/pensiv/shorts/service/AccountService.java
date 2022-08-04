@@ -1,4 +1,4 @@
-package shorts.service;
+package ai.pensiv.shorts.service;
 
 public interface AccountService {
 //    List<Code> readAll();
